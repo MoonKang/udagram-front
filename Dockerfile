@@ -16,3 +16,5 @@ RUN ionic build
 FROM nginx:alpine
  
 COPY nginx.conf /etc/nginx/nginx.conf
+
+CMD ["ionic", "serve"]
